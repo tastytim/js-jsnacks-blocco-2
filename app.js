@@ -1,5 +1,5 @@
 // Inserisco il numero
-let numero = prompt("Inserisci il numero");
+let numero = parseInt(prompt("Inserisci il numero"));
 
 // Controllo
 if(numero % 2 === 0){
@@ -7,4 +7,6 @@ if(numero % 2 === 0){
 }else{
     console.log(numero + 1);
 }
+
+
 
